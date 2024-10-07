@@ -1,0 +1,257 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f7ef;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#list {
+    background-color: #009486;
+    color: #009486;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+.top{
+    text-decoration: none;
+
+    color: black;
+}
+.top{
+   background: #ceeede;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.top:hover{
+    background: #5fc1b7;
+}
+
+#header-section {
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+#header-section h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+
+#about-section {
+    margin: 20px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#about-section img {
+    border-radius: 50%;
+    border: 5px solid #333;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#about-section h3 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+#hobbies-section {
+    background-color: #d0f0e0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies-section h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#hobbies-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hobbies-section li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#hobbies-section li img {
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#hobbies-section a {
+    color: #009688;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hobbies-section a:hover {
+    text-decoration: underline;
+}
+
+
+#guess-section {
+    background-color: #f2fdf9;
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#guess-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#guess-section input[type="submit"] {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guess-section input[type="submit"]:hover {
+    background-color: #00796b;
+}
+
+
+#future-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#future-section p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+
+#projects-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#projects-section a input[type="submit"] {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#projects-section a input[type="submit"]:hover {
+    background-color: #00796b;
+}
+
+#mt-profile {
+    background-color: #f2fdf9;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#mt-profile h2 {
+    color: #009688;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#mt-profile ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mt-profile li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#mt-profile li:hover {
+    background-color: #e0f2f1;
+}
+
+#mt-profile li img {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#mt-profile a {
+    color: #009688;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+#mt-profile a:hover {
+    color: #00796b;
+    text-decoration: underline;
+}
+
+#mt-profile li span {
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 5px;
+}
